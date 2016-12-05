@@ -6,7 +6,6 @@
 *:before {
   margin: 0;
   padding: 0;
-
   @include border-box;
 }
 
@@ -32,11 +31,24 @@ img {
     min-height: 1px;
     }
 
-@media #{$breakpoint-medium} {
-  @for $i from 1 through $grid-columns {
-    .col-#{$i} {
-      width: 100% / $grid-columns * $i;
-    }
-  }
-
+[class*='color-swab-'] {
+  @extend %basic-div;
 }
+
+@for $i from 1 through length($colors) {
+  .color-swab-#{$i} {
+    @include main-color(nth($colors, $i));
+  }
+}
+
+
+
+// Responsive grid media query
+  @media #{$breakpoint-medium} {
+    @for $i from 1 through $grid-columns {
+      .col-#{$i} {
+        width: 100% / $grid-columns * $i;
+        }
+      }
+
+    }

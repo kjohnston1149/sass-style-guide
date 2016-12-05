@@ -6,6 +6,11 @@
   .wrapper:after, .row:after {
     clear: both; }
 
+[class*='color-swab-'] {
+  width: 100%;
+  height: 5rem !important;
+  margin: 2px; }
+
 *,
 *:after,
 *:before {
@@ -29,6 +34,18 @@ img {
   padding: 1em;
   width: 100%;
   min-height: 1px; }
+
+.color-swab-1 {
+  background: #D8F5E8; }
+
+.color-swab-2 {
+  background: #2ACCC3; }
+
+.color-swab-3 {
+  background: #FFBC17; }
+
+.color-swab-4 {
+  background: #FF623F; }
 
 @media only screen and (min-width: 30em) {
   .col-1 {

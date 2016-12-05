@@ -1,9 +1,9 @@
+// Responsive Grid
 @mixin border-box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 %clearfix {
   *zoom: 1;
   &:before,
@@ -14,4 +14,15 @@
   &:after {
     clear: both;
   }
+}
+// Swabs
+
+@mixin main-color($color) {
+  background: $color;
+}
+
+%basic-div {
+  width: 100%;
+  height: 5rem !important;
+  margin: 2px;
 }
