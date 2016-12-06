@@ -57,24 +57,12 @@ img {
         }
       }
     }
-    .color-mix-1 {
-      .mix-#{$i} {
-        @include mix-color($color1, (nth($colors, $i)));
-      }
-    }
-    .color-mix-2 {
-      .mix-#{$i} {
-        @include mix-color($color2, (nth($colors, $i)));
-      }
-    }
-    .color-mix-3 {
-      .mix-#{$i} {
-        @include mix-color($color3, (nth($colors, $i)));
-      }
-    }
-    .color-mix-4 {
-      .mix-#{$i} {
-        @include mix-color($color4, (nth($colors, $i)));
+
+    @for $j from 1 through length($colors) {
+      .color-mix-#{$j} {
+        .mix-#{$i} {
+          @include mix-color((nth($colors, $j)), (nth($colors, $i)));
+        }
       }
     }
 }
