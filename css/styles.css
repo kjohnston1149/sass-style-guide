@@ -6,7 +6,7 @@
   .wrapper:after, .row:after {
     clear: both; }
 
-[class*='-swab-'] {
+[class*='-swab-'], [class*="mix-"] {
   width: 100%;
   height: 100px;
   margin: 2px; }
@@ -42,21 +42,27 @@ img {
 .color-swab-1 {
   background: #D8F5E8; }
 
-.color-swab-2 {
-  background: #2ACCC3; }
-
-.color-swab-3 {
-  background: #FFBC17; }
-
-.color-swab-4 {
-  background: #FF623F; }
-
 .tint-swab-1 .swab-section.light {
   background: white; }
 .tint-swab-1 .swab-section.normal {
   background: #D8F5E8; }
 .tint-swab-1 .swab-section.dark {
   background: #87e0b8; }
+
+.color-mix-1 .mix-1 {
+  background: #d8f5e8; }
+
+.color-mix-2 .mix-1 {
+  background: #81e1d6; }
+
+.color-mix-3 .mix-1 {
+  background: #ecd980; }
+
+.color-mix-4 .mix-1 {
+  background: #ecac94; }
+
+.color-swab-2 {
+  background: #2ACCC3; }
 
 .tint-swab-2 .swab-section.light {
   background: #79e3dd; }
@@ -65,6 +71,21 @@ img {
 .tint-swab-2 .swab-section.dark {
   background: #197772; }
 
+.color-mix-1 .mix-2 {
+  background: #81e1d6; }
+
+.color-mix-2 .mix-2 {
+  background: #2accc3; }
+
+.color-mix-3 .mix-2 {
+  background: #95c46d; }
+
+.color-mix-4 .mix-2 {
+  background: #959781; }
+
+.color-swab-3 {
+  background: #FFBC17; }
+
 .tint-swab-3 .swab-section.light {
   background: #ffd97d; }
 .tint-swab-3 .swab-section.normal {
@@ -72,12 +93,39 @@ img {
 .tint-swab-3 .swab-section.dark {
   background: #b07d00; }
 
+.color-mix-1 .mix-3 {
+  background: #ecd980; }
+
+.color-mix-2 .mix-3 {
+  background: #95c46d; }
+
+.color-mix-3 .mix-3 {
+  background: #ffbc17; }
+
+.color-mix-4 .mix-3 {
+  background: #ff8f2b; }
+
+.color-swab-4 {
+  background: #FF623F; }
+
 .tint-swab-4 .swab-section.light {
   background: #ffb5a5; }
 .tint-swab-4 .swab-section.normal {
   background: #FF623F; }
 .tint-swab-4 .swab-section.dark {
   background: #d82700; }
+
+.color-mix-1 .mix-4 {
+  background: #ecac94; }
+
+.color-mix-2 .mix-4 {
+  background: #959781; }
+
+.color-mix-3 .mix-4 {
+  background: #ff8f2b; }
+
+.color-mix-4 .mix-4 {
+  background: #ff623f; }
 
 @media only screen and (min-width: 30em) {
   .col-1 {

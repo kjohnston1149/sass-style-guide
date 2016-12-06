@@ -29,6 +29,10 @@
   background: darken($color, 20%);
 }
 
+@mixin mix-color($color-a, $color-b) {
+  background: mix($color-a, $color-b);
+}
+
 %basic-div {
   width: 100%;
   height: 100px;
