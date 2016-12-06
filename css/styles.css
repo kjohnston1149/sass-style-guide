@@ -6,9 +6,14 @@
   .wrapper:after, .row:after {
     clear: both; }
 
-[class*='-swab-'], [class*="mix-"] {
+[class*='-swab-'] {
   width: 100%;
   height: 100px;
+  margin: 2px; }
+
+[class*="mix-"] {
+  width: 100%;
+  height: 25px;
   margin: 2px; }
 
 .tint-swab-1 .swab-section, .tint-swab-2 .swab-section, .tint-swab-3 .swab-section, .tint-swab-4 .swab-section {
@@ -53,13 +58,13 @@ img {
   background: #d8f5e8; }
 
 .color-mix-2 .mix-1 {
-  background: #81e1d6; }
+  background: #67dad0; }
 
 .color-mix-3 .mix-1 {
-  background: #ecd980; }
+  background: #f1d060; }
 
 .color-mix-4 .mix-1 {
-  background: #ecac94; }
+  background: #f1957a; }
 
 .color-swab-2 {
   background: #2ACCC3; }
@@ -72,16 +77,16 @@ img {
   background: #197772; }
 
 .color-mix-1 .mix-2 {
-  background: #81e1d6; }
+  background: #9be7db; }
 
 .color-mix-2 .mix-2 {
   background: #2accc3; }
 
 .color-mix-3 .mix-2 {
-  background: #95c46d; }
+  background: #b4c253; }
 
 .color-mix-4 .mix-2 {
-  background: #959781; }
+  background: #b4876d; }
 
 .color-swab-3 {
   background: #FFBC17; }
@@ -94,16 +99,16 @@ img {
   background: #b07d00; }
 
 .color-mix-1 .mix-3 {
-  background: #ecd980; }
+  background: #e6e19f; }
 
 .color-mix-2 .mix-3 {
-  background: #95c46d; }
+  background: #75c687; }
 
 .color-mix-3 .mix-3 {
   background: #ffbc17; }
 
 .color-mix-4 .mix-3 {
-  background: #ff8f2b; }
+  background: #ff8231; }
 
 .color-swab-4 {
   background: #FF623F; }
@@ -116,13 +121,13 @@ img {
   background: #d82700; }
 
 .color-mix-1 .mix-4 {
-  background: #ecac94; }
+  background: #e6c2ad; }
 
 .color-mix-2 .mix-4 {
-  background: #959781; }
+  background: #75a795; }
 
 .color-mix-3 .mix-4 {
-  background: #ff8f2b; }
+  background: #ff9d25; }
 
 .color-mix-4 .mix-4 {
   background: #ff623f; }

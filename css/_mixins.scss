@@ -30,12 +30,18 @@
 }
 
 @mixin mix-color($color-a, $color-b) {
-  background: mix($color-a, $color-b);
+  background: mix($color-a, $color-b, $weight:65%);
 }
 
 %basic-div {
   width: 100%;
   height: 100px;
+  margin: 2px;
+}
+
+%mix-div {
+  width: 100%;
+  height: 25px;
   margin: 2px;
 }
 
